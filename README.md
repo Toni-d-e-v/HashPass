@@ -1,6 +1,6 @@
 # HashPass
 
-You can download it from official firefox website: [HashPass(https://addons.mozilla.org/en-US/firefox/addon/hashpass/)]
+You can download it from official firefox website: [HashPass](https://addons.mozilla.org/en-US/firefox/addon/hashpass/)
 
 On one click hashes your password before you input it. It's a simple and secure way to use simple passwords.
 For hashing we use in house built hashing algorithm that is very fast and secure and allways outputs 53-byte string.
