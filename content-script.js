@@ -41,9 +41,15 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 })
 var x = document.querySelector('.add');
 x.addEventListener("click", addNote);
-
+var y = document.querySelector('.rand');
+y.addEventListener("click", gen_rand_salt);
 function get_salt() {
         let salt = localStorage.getItem("salt");
+        return salt;
+}
+function gen_rand_salt() {
+        let salt = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        localStorage.setItem("salt", salt);
         return salt;
 }
 function init() {

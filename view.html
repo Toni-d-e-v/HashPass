@@ -22,6 +22,15 @@
         cursor: pointer;
         margin: 10px;
       }
+      .rand {
+        width: 50px;
+        height: 50px;
+        background-color: #b46148;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 10px;
+      }
       p {
         margin: 1;
         padding: 1;
@@ -34,6 +43,7 @@
     <p>Makes every password secure!</p>
     <a href="https://github.com/Toni-d-e-v/HashPass">More Info</a>
   </body>
+
   <div>
     <input type="text" id="salt" placeholder="salt for hash"> 
     <button class="add">Add Salt</button>
@@ -41,6 +51,8 @@
   <div>
     <p>Hash if password is not filled:<p>
     <input type="text" id="hash" placeholder="hash"> 
+    <button class="rand">Gen salt</button>
+
   </div>
   <script type="text/javascript" src="content-script.js"></script>
 
