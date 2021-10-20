@@ -9,7 +9,8 @@ browser.contextMenus.create({
 
 
 
-
+// TOS that we dont have to do if user lost password or salt
+// TOS: if user lost salt, Its not our fault, we can't do anything about it so please dont do it
 
 /*  add event listeners to buttons */
 const cyrb53 = function(str, seed = 0) {
