@@ -4,7 +4,7 @@
 **If you want to make it secure add salt in the settings salt is whats added at the end of your password before its hashed as there cant not be brute force attack with our hashing algortihm!**
 
 **TOS: if you lose salt, Its not our fault, we can't do anything about it so please dont do it**
-By downloading you aggre on our simple TOS
+By downloading you agree on our simple TOS
 
 On one click hashes your password before you input it. It's a simple and secure way to use simple passwords.
 For hashing we use in house built hashing algorithm that is very fast and secure and allways outputs 53-byte string.
